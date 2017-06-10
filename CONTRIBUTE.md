@@ -7,3 +7,4 @@ This file will be filled out more in depth at a later date, however there are a 
 * Variables are `snakeCased`
 * Functions are `snakeCased`
 * Files with general functions grouped together must be prefixed with a _. `Example _commands.js`
+* When adding new commands or handlers, make sure you add it to the [addGuild](https://github.com/Swan/Penguin/blob/master/handlers/_guild.js#L10) function following the same convetion in the Mongoose Model.
