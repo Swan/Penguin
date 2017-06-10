@@ -1,2 +1,2 @@
-# Penguin
+# Penguin 🐧
 A multipurpose Discord bot. 🔧
