@@ -13,14 +13,6 @@ client.on('message', (message) => {
     _commands.handle(client, message);
 });
 
-client.on('guildMemberRemove', (member) => {
-
-});
-
-client.on('guildMemberAdd', (member) => {
-
-});
-
 client.on('guildCreate', (guild) => {
     _guild.addGuild(client, guild);
 });
