@@ -1,5 +1,5 @@
 # Contributing 
-This file will be filled out more in depth at a later date, however there are a few rules I'd like to try and follow in this codebase.
+This file will be filled out more in depth at a later date, however there are a few rules I'd like to try and follow in this codebase. Exceptions may be made whenever I see fit.
 
 **Rules**
 * Don't use `var` only use `let` or `const`
