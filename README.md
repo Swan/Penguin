@@ -5,6 +5,14 @@
 
 > Penguin is a multipurpose Discord bot, written with the Discord community in mind. Currently this bot is nowhere close to being ready to be released, as it is still being developed. Anyone can contribute to this project. If you'd like, just send in a pull request.
 
+# Getting Started
+To get the bot running yourself, you'll need to go through a few steps:
+* Clone or download the repository
+* Run `npm install` to install the dependencies
+* Set up a [Mongo](https://www.mongodb.com/) Database or just use [mLab](https://mlab.com/)
+* Configure the bot in [config.json](https://github.com/Swan/Penguin/blob/master/config/config.example.json)
+* Run `npm start` to start the bot
+
 # LICENSE 
 
 MIT License
