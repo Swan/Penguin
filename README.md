@@ -1,2 +1,4 @@
 # Penguin 🐧
-A multipurpose Discord bot. 🔧
+![Penguin's Avatar](https://juicy.eggplants.org/kfhv0y.jpg)
+Penguin is a multipurpose Discord bot, written with the Discord community in mind. Currently this bot is nowhere close to being ready to be released, as it is still being developed. 
+
