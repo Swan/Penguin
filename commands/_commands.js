@@ -13,6 +13,7 @@ module.exports.handle = (client, message) => {
     let args = message.content.split(" ").slice(1); 
 
     switch(command) {
+        // General Commands
         case 'help':
             help(client, message, args);
             break;
