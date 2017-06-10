@@ -15,6 +15,8 @@ To get the bot running yourself, you'll need to go through a few steps:
 
 # LICENSE 
 
+tl;dr - Do whatever you want with the source.
+
 MIT License
 
 Copyright (c) 2017 Swan
