@@ -3,7 +3,7 @@
 <img src="https://juicy.eggplants.org/kfhv0y.jpg" width:150px height:150px>
 </p>
 
-> Penguin is a multipurpose Discord bot, written with the Discord community in mind. Currently this bot is nowhere close to being ready to be released, as it is still being developed. Anyone can contribute to this project. If you'd like, just send in a pull request.
+> Penguin is a multipurpose Discord bot, written with the Discord community in mind. Currently this bot is in its early stages and is nowhere close to being used, as it is still being developed. Anyone can contribute to this project. If you'd like, just send in a pull request but first read the [CONTRIBUTE](https://github.com/Swan/Penguin/blob/master/CONTRIBUTE.md) file to view the standards.
 
 # Getting Started
 To get the bot running yourself, you'll need to go through a few steps:
