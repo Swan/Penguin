@@ -42,6 +42,7 @@ Below are the list of features to be added to the bot. If you have anymore, feel
 **Other**
 * Mute evasion. If someone leaves and joins the server while muted, the role will be given back. [✗]
 * osu!/Ripple score tracking [✗]
+* Music Bot [✗]
 
 **Web**
 * General website with information for the bot. [✗]
