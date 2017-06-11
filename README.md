@@ -30,6 +30,8 @@ Below are the list of features to be added to the bot. If you have anymore, feel
 * `;log enable (channel)` - Turns on server logging to a specific channel [✗]
 * `;log disable` - Turns off server logging completely [✗]
 * `;setmuterole (role)` - Sets the role for users to be muted on the server [✗]
+* `;setwelcome (message)` - Sets a custom welcome message for when users join the guild [✗]
+* `;setbye (message)` - Sets a custom bye message for when users leave the guild [✗]
 
 **Fun Commands**
 * `;cat` - Sends a random cat photo
