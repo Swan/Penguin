@@ -14,6 +14,8 @@ To get the bot running yourself, you'll need to go through a few steps:
 * Run `npm start` to start the bot
 
 # Features Checklist
+Below are the list of features to be added to the bot. If you have anymore, feel free to let me know so I can add it to the list.
+
 **General Commands**
 * `;help` - Sends a message to the user with command information [✓]
 
