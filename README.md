@@ -13,6 +13,33 @@ To get the bot running yourself, you'll need to go through a few steps:
 * Configure the bot in [config.json](https://github.com/Swan/Penguin/blob/master/config/config.example.json)
 * Run `npm start` to start the bot
 
+# Features Checklist
+**General Commands**
+* `;help` - Sends a message to the user with command information [✓]
+
+**Admin Commands**
+* `;mute @user length` - Mutes a user for a given amount of time [✗]
+* `;unmute @user` - Unmutes a user [✗]
+* `;ban @user` - Bans a user from the guild [✗]
+* `;kick @user` - Kicks a user from the guild [✗]
+* `;disable (command)` - Disables a command entirely onm the guild [✗]
+* `;enable (command)` - Enables a command to be used on the guild [✗]
+* `;filtercmd (channelId OR channelName)` - Only allows a command to be used in a specific channel [✗] 
+* `;log enable (channel)` - Turns on server logging to a specific channel [✗]
+* `;log disable` - Turns off server logging completely [✗]
+* `;setmuterole (role)` - Sets the role for users to be muted on the server [✗]
+
+**Fun Commands**
+* `;cat` - Sends a random cat photo
+* `;nsfw (search)` - Sends a nsfw photo with a given search term [✗]
+* `;trivia` - Starts a game of trivia in the guild [✗]
+* `;triviaend` - Ends a game of trivia in the guild [✗]
+
+**Other**
+* Mute evasion. If someone leaves and joins the server while muted, the role will be given back. [✗]
+* osu!/Ripple score tracking [✗]
+
+
 # LICENSE 
 
 tl;dr - Do whatever you want with the source.
