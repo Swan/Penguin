@@ -9,7 +9,7 @@ module.exports.addGuild = (client, guild) => {
         name: guild.name,
         // Add default command settings here
         commands: [
-            {name: 'help', channel: '', active: true}
+            {name: 'help', active: true}
         ],
         // Add default handler settings Here
         handlers: []

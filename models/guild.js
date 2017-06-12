@@ -15,7 +15,6 @@ module.exports = mongoose.model('Guild', new mongoose.Schema({
             type: String,
             unique: true
         },
-        channel: String,
         active: Boolean
     }],
     handlers: [{
@@ -23,9 +22,20 @@ module.exports = mongoose.model('Guild', new mongoose.Schema({
             type: String,
             unique: true
         },
-        channel: String,
         active: Boolean
     }],
+    muteRole: {
+        type: String, 
+        unique: true,
+        default: null
+    },
+    isLogging: {
+        type: Boolean,
+        required: true,
+        default: false
+    },
+    welcomeMsg: Boolean,
+    byeMsg: Boolean,  
     dateAdded: {
         type: Date,
     }, 

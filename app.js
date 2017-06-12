@@ -10,7 +10,7 @@ const client = new Discord.Client();
 configuration.start(client);
 
 client.on('message', (message) => {
-    _commands.handle(client, message);
+    _commands.execute(client, message);
 });
 
 client.on('guildCreate', (guild) => {
