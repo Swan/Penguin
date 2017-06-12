@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const Guild = require('../models/guild');
 
 const { help } = require('./help');
+const { setMuteRole } = require('./setmuterole');
 
 module.exports.execute = (client, message) => {
     if (message.author.bot) return;
@@ -20,11 +21,16 @@ module.exports.execute = (client, message) => {
             // Check if the command is active and execute it.
             if (index != -1 && guild.commands[index].active) {
                 switch(command) {
+                    // General Commands
                     case 'help':
                         help(client, message, args);
                         break;
+                    // Admin Commands
+                    case 'setmuterole':
+                        setMuteRole(client, message, args);
+                        break;
+                    // Fun Commands
                 }
             }
         });
 };
-
