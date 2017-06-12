@@ -20,6 +20,7 @@ Below are the list of features to be added to the bot. If you have anymore, feel
 * `;help` - Sends a message to the user with command information [✓]
 
 **Admin Commands**
+* `;setmuterole (role)` - Sets the role for users to be muted on the server [✓]
 * `;mute @user length` - Mutes a user for a given amount of time [✗]
 * `;unmute @user` - Unmutes a user [✗]
 * `;ban @user` - Bans a user from the guild [✗]
@@ -29,7 +30,6 @@ Below are the list of features to be added to the bot. If you have anymore, feel
 * `;filtercmd (channelId OR channelName)` - Only allows a command to be used in a specific channel [✗] 
 * `;log enable (channel)` - Turns on server logging to a specific channel [✗]
 * `;log disable` - Turns off server logging completely [✗]
-* `;setmuterole (role)` - Sets the role for users to be muted on the server [✗]
 * `;setwelcome (message)` - Sets a custom welcome message for when users join the guild [✗]
 * `;setbye (message)` - Sets a custom bye message for when users leave the guild [✗]
 
