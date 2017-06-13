@@ -35,7 +35,7 @@ Below are the list of features to be added to the bot. If you have anymore, feel
 * `.setbye (message)` - Sets a custom bye message for when users leave the guild [✗]
 
 **Fun Commands**
-* `.cat` - Sends a random cat photo
+* `.cat` - Sends a random cat photo [✗]
 * `.nsfw (search)` - Sends a nsfw photo with a given search term [✗]
 * `.trivia` - Starts a game of trivia in the guild [✗]
 * `.triviaend` - Ends a game of trivia in the guild [✗]
