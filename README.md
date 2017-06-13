@@ -20,7 +20,7 @@ Below are the list of features to be added to the bot. If you have anymore, feel
 * `;help` - Sends a message to the user with command information [✓]
 
 **Admin Commands**
-* `;setmuterole (role)` - Sets the role for users to be muted on the server []
+* `;setmuterole (role)` - Sets the role for users to be muted on the server [✓]
 * `;mute @user` - Mutes a user from text/voice chat [✓]
 * `;unmute @user` - Unmutes a user text/voice chat[✗]
 * `;ban @user` - Bans a user from the guild [✗]
