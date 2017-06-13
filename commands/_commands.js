@@ -3,8 +3,10 @@ const mongoose = require('mongoose');
 const Guild = require('../models/guild');
 
 const { help } = require('./help');
+
 const { setMuteRole } = require('./setmuterole');
 const { mute } = require('./mute');
+const { unmute } = require('./unmute');
 
 module.exports.execute = (client, message) => {
     if (message.author.bot) return;
@@ -32,6 +34,9 @@ module.exports.execute = (client, message) => {
                         break;
                     case 'mute':
                         mute(client, message, args);
+                        break;
+                    case 'unmute':
+                        unmute(client, message, args);
                         break;
                     // Fun Commands
                 }

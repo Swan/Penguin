@@ -14,6 +14,8 @@ module.exports.setMuteRole = (client, message, args) => {
         }
     }
 
+    if (muteRoleId == null) return message.reply("Please specify a valid role name");
+
     // Add mute role to database
     Guild.findOne({id: message.guild.id})
         .then((guild) => {
