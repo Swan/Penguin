@@ -16,7 +16,6 @@ module.exports.mute = (client, message, args) => {
     Guild.findOne({id: message.guild.id})
         .then((guild) => {
             if (guild.muteRole == null) return message.reply("A mute role has not been set for this server. Please use `.setmuterole roleName`");
-            console.log(guild.muteRole);
             muteTarget.addRole(guild.muteRole);
             muteTarget.setMute(true);
             // TODO: Add Embedded Message Here.
