@@ -10,7 +10,8 @@ module.exports.addGuild = (client, guild) => {
         // Add default command settings here
         commands: [
             {name: 'help', active: true},
-            {name: 'setmuterole', active: true}
+            {name: 'setmuterole', active: true},
+            {name: 'mute', active: true}
         ],
         // Add default handler settings Here
         handlers: []

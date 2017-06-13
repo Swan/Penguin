@@ -4,6 +4,7 @@ const Guild = require('../models/guild');
 
 const { help } = require('./help');
 const { setMuteRole } = require('./setmuterole');
+const { mute } = require('./mute');
 
 module.exports.execute = (client, message) => {
     if (message.author.bot) return;
@@ -28,6 +29,9 @@ module.exports.execute = (client, message) => {
                     // Admin Commands
                     case 'setmuterole':
                         setMuteRole(client, message, args);
+                        break;
+                    case 'mute':
+                        mute(client, message, args);
                         break;
                     // Fun Commands
                 }
