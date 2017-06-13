@@ -7,14 +7,14 @@ module.exports.addGuild = (client, guild) => {
     Guild.create({
         id: guild.id,
         name: guild.name,
-        // Add default command settings here
+        // Add default command settings here -- Will be replaced with a default in the model
         commands: [
             {name: 'help', active: true},
             {name: 'setmuterole', active: true},
             {name: 'mute', active: true},
             {name: 'unmute', active: true}
         ],
-        // Add default handler settings Here
+        // Add default handler settings Here -- Will be replaced with a default in the model
         handlers: []
     }).then((createdGuild) => {
         console.log(`Guild: #${guild.id} was successfully added to the database.`);
