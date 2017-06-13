@@ -15,7 +15,7 @@ module.exports = mongoose.model('Guild', new mongoose.Schema({
             type: String,
             unique: true
         },
-        active: Boolean
+        active: Boolean,
     }],
     handlers: [{
         name: {
