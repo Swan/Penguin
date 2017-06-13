@@ -9,11 +9,21 @@ module.exports.addGuild = (client, guild) => {
         name: guild.name,
         commands: [
             {name: 'help', active: true},
+
             {name: 'setmuterole', active: true},
+            {name: 'smr', active: true},
+
             {name: 'mute', active: true},
+            {name: 'm', active: true},
+
             {name: 'unmute', active: true},
+            {name: 'um', active: true},
+
             {name: 'kick', active: true},
-            {name: 'ban', active: true}
+            {name: 'k', active: true},
+
+            {name: 'ban', active: true},
+            {name: 'b', active: true}
         ],
         handlers: []
     }).then((createdGuild) => {

@@ -32,18 +32,23 @@ module.exports.execute = (client, message) => {
                         break;
                     // Admin Commands
                     case 'setmuterole':
+                    case 'smr':
                         setMuteRole(client, message, args);
                         break;
                     case 'mute':
+                    case 'm':
                         mute(client, message, args);
                         break;
                     case 'unmute':
+                    case 'um':
                         unmute(client, message, args);
                         break;
                     case 'kick':
+                    case 'k':
                         kick(client, message, args);
                         break;
                     case 'ban':
+                    case 'b':
                         ban(client, message, args);
                         break;
                     // Fun Commands
