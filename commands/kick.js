@@ -15,5 +15,7 @@ module.exports.kick = (client, message, args) => {
         .then(kickedMember => {
             return message.reply(`${kickedMember} was successfully kicked from the server.`);
         })
-        .catch(console.error);
+        .catch(() => {
+            return message.reply(`Could not kick that member, as I do not have permissions to do so.`);
+        });
 };

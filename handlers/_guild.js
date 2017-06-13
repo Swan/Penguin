@@ -12,7 +12,8 @@ module.exports.addGuild = (client, guild) => {
             {name: 'setmuterole', active: true},
             {name: 'mute', active: true},
             {name: 'unmute', active: true},
-            {name: 'kick', active: true}
+            {name: 'kick', active: true},
+            {name: 'ban', active: true}
         ],
         handlers: []
     }).then((createdGuild) => {

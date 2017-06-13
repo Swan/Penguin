@@ -24,7 +24,7 @@ Below are the list of features to be added to the bot. If you have anymore, feel
 * `.mute @user` - Mutes a user from text/voice chat [✓]
 * `.unmute @user` - Unmutes a user text/voice chat [✓]
 * `.kick @user` - Kicks a user from the guild [✓]
-* `.ban @user` - Bans a user from the guild [✗]
+* `.ban @user` - Bans a user from the guild [✓]
 * `.prune (x amount)` - Removes x amount of messages from the chat [✗]
 * `.disable (command)` - Disables a command entirely in the guild [✗]
 * `.enable (command)` - Enables a command to be used in the guild [✗]
