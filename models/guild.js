@@ -34,8 +34,14 @@ module.exports = mongoose.model('Guild', new mongoose.Schema({
         required: true,
         default: false
     },
-    welcomeMsg: Boolean,
-    byeMsg: Boolean,  
+    welcomeMsg: {
+        type: String,
+        default: null   
+    },
+    byeMsg: {
+        type: String,
+        default: null   
+    },  
     dateAdded: {
         type: Date,
     }, 
