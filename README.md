@@ -17,27 +17,27 @@ To get the bot running yourself, you'll need to go through a few steps:
 Below are the list of features to be added to the bot. If you have anymore, feel free to let me know so I can add it to the list.
 
 **General Commands**
-* `;help` - Sends a message to the user with command information [✓]
+* `.help` - Sends a message to the user with command information [✓]
 
 **Admin Commands**
-* `;setmuterole (role)` - Sets the role for users to be muted on the server [✓]
-* `;mute @user` - Mutes a user from text/voice chat [✓]
-* `;unmute @user` - Unmutes a user text/voice chat[✓]
-* `;ban @user` - Bans a user from the guild [✗]
-* `;kick @user` - Kicks a user from the guild [✗]
-* `;disable (command)` - Disables a command entirely onm the guild [✗]
-* `;enable (command)` - Enables a command to be used on the guild [✗]
-* `;filtercmd (channelId OR channelName)` - Only allows a command to be used in a specific channel [✗] 
-* `;log enable (channel)` - Turns on server logging to a specific channel [✗]
-* `;log disable` - Turns off server logging completely [✗]
-* `;setwelcome (message)` - Sets a custom welcome message for when users join the guild [✗]
-* `;setbye (message)` - Sets a custom bye message for when users leave the guild [✗]
+* `.setmuterole (role)` - Sets the role for users to be muted on the server [✓]
+* `.mute @user` - Mutes a user from text/voice chat [✓]
+* `.unmute @user` - Unmutes a user text/voice chat[✓]
+* `.ban @user` - Bans a user from the guild [✗]
+* `.kick @user` - Kicks a user from the guild [✗]
+* `.disable (command)` - Disables a command entirely onm the guild [✗]
+* `.enable (command)` - Enables a command to be used on the guild [✗]
+* `.filtercmd (channelId OR channelName)` - Only allows a command to be used in a specific channel [✗] 
+* `.log enable (channel)` - Turns on server logging to a specific channel [✗]
+* `.log disable` - Turns off server logging completely [✗]
+* `.setwelcome (message)` - Sets a custom welcome message for when users join the guild [✗]
+* `.setbye (message)` - Sets a custom bye message for when users leave the guild [✗]
 
 **Fun Commands**
-* `;cat` - Sends a random cat photo
-* `;nsfw (search)` - Sends a nsfw photo with a given search term [✗]
-* `;trivia` - Starts a game of trivia in the guild [✗]
-* `;triviaend` - Ends a game of trivia in the guild [✗]
+* `.cat` - Sends a random cat photo
+* `.nsfw (search)` - Sends a nsfw photo with a given search term [✗]
+* `.trivia` - Starts a game of trivia in the guild [✗]
+* `.triviaend` - Ends a game of trivia in the guild [✗]
 
 **Other**
 * Mute evasion. If someone leaves and joins the server while muted, the role will be given back. [✗]
