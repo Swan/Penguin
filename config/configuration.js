@@ -8,7 +8,8 @@ mongoose.Promise = global.Promise;
 module.exports.start = (client) => {
     client.login(config.token)
         .then(() => {mongoose.connect(config.database)})
-        .then(() => {client.user.setGame(config.playingGame)})
+        .then(() => {client.user.setStatus('dnd')})
+        .then(() => {client.user.setGame(config.playingGame + client.guilds.array().length + ' servers')})
         .then(() => {
             console.log(`\n----------------------\n\n` +
                         `Connection: Penguin has connected succesfully!\n` +
