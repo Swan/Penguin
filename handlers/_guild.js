@@ -23,12 +23,17 @@ module.exports.addGuild = (client, guild) => {
             {name: 'k', active: true},
 
             {name: 'ban', active: true},
-            {name: 'b', active: true}
+            {name: 'b', active: true},
+
+            {name: 'prune', active: true},
+            {name: 'purge', active: true}
         ],
         handlers: []
     }).then((createdGuild) => {
         console.log(`Guild: #${guild.id} was successfully added to the database.`);
-    });
+    }).catch((err) => {
+        throw new Error(err);
+    })
 };
 
 module.exports.removeGuild = (client, guild) => {
