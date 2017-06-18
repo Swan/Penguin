@@ -20,6 +20,15 @@ module.exports.execute = (client, message) => {
     
     let args = message.content.split(" ").slice(1); 
 
+    // This prevents a crash with the bot. In case the message was sent in a private message.
+    if (!message.guild) {
+        switch(command) {
+            case 'help':
+                return help(client, message, args);
+        }
+        return message.reply("Why are you trying to use commands outside of a guild?");
+    }
+
     Guild.findOne({id: message.guild.id})
         .then((guild) => {
             let index = guild.commands.map(x => x.name).indexOf(command);
