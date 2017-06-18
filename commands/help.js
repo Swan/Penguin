@@ -9,8 +9,7 @@ module.exports.help = (client, message, args) => {
         .addField(`Information`, `Hey there! My name is Penguin.\n` +
                                 `I'm a nifty little Discord bot developed by [Swan](https://github.com/Swan)!\n` +
                                 `The project is open-source which means anyone can contribute!`)
-        .addField(`Commands`, `The following is the list of commands you can use!\n\n` +
-                                `**;help** - Displays the message you are seeing right now.`)
+        .addField(`Commands`, `The list of commands could be found on [Github](https://github.com/Swan/Penguin/blob/master/README.md). This may be subject to change in the future!`)
     ).catch((err) => {
         message.reply(`Unfortunately I could not send you the help message. Are your privacy settings on?`);
     });
