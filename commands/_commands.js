@@ -9,6 +9,7 @@ const { mute } = require('./mute');
 const { unmute } = require('./unmute');
 const { kick } = require('./kick');
 const { ban } = require('./ban');
+const { prune } = require('./prune');
 
 module.exports.execute = (client, message) => {
     if (message.author.bot) return;
@@ -50,6 +51,10 @@ module.exports.execute = (client, message) => {
                     case 'ban':
                     case 'b':
                         ban(client, message, args);
+                        break;
+                    case 'prune':
+                    case 'purge': 
+                        prune(client, message, args);
                         break;
                     // Fun Commands
                 }
