@@ -30,10 +30,7 @@ module.exports.prune = (client, message, args) => {
 
         message.channel.fetchMessages()
             .then((messages) => {
-                console.log(args[1]);  
                 let messagesArray = messages.array();
-
-                console.log(pruneTarget.id);
 
                 // In the event that the first arg given isn't a number.
                 if (isNaN(parseInt(args[1]))) return message.reply("You must specify the number of messages you would like to prune.");
