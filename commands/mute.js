@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const Guild = require('../models/guild');
 
 module.exports.mute = (client, message, args) => {
-    if(!message.guild.member(message.author).hasPermission("MANAGE_ROLES")) return;
+    if(!message.guild.member(message.author).hasPermission("MUTE_MEMBERS")) return;
 
     if (message.mentions.users.size === 0) {
         return message.reply("You need to mention a user in order to mute them.");
