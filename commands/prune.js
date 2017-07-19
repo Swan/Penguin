@@ -4,7 +4,7 @@ const Guild = require('../models/guild');
 module.exports.prune = (client, message, args) => {
     if(!message.guild.member(message.author).hasPermission("MANAGE_MESSAGES")) return;
 
-    if (args.length < 1) return message.reply("You must specify the amount of numbers you want to prune.");
+    if (args.length < 1) return message.reply("You must specify the amount of messages you want to prune.");
 
     // If no user was mentioned, then delete messages from all users.
     if (message.mentions.users.size === 0) {
